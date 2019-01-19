@@ -1,6 +1,7 @@
 
 import unittest
 
+#Selection sort class which is finding smallest element from the left and running through whole array
 class Selecttion(object):
     def selection(self, arr):
         for i in range(len(arr)):
